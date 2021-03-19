@@ -23,7 +23,7 @@ function SearchResult({
           <p>___</p>
           <p>{description}</p>
         </div>
-        <div className="searchResult__infoBottom">
+        <dgitiv className="searchResult__infoBottom">
           <div className="searchResult__stars">
             <StarIcon className="searchResult__star" />
             <p>
