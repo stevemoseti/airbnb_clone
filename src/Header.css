@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: white;
+  top: 0em;
+  width: 100%;
+  z-index: 100;
+}
+.header__icon {
+  object-fit: contain;
+  height: 100px;
+  margin-left: 20px;
+}
+.header__center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content; /*positions  the header__center at the center.*/
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 80px;
+}
+.header__center > input {
+  border: none;
+  /* width: 250px; */
+  outline-width: 0; /* makes the input field border to disapper*/
+  padding: 10px;
+}
